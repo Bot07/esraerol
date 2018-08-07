@@ -128,7 +128,7 @@ let embed = new Discord.RichEmbed()
 
 .setAuthor(msg.author.username, msg.author.avatarURL)
 
-	.setDescription("msg.author.username" + "," + söz + "ile çay içiyorsunuz!")
+	.setDescription("msg.author.username ile çay içiyorsunuz!")
 .setImage("https://goo.gl/EHQEQw")
 
 
