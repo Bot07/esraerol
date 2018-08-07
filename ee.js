@@ -114,35 +114,19 @@ msg.member.send({embed: embed})
 
 
 //}
+
  client.on('message', msg => {
 
 
 
-   if (msg.content === prefix + "çayiç")) {
-
-
-
-	  
-
-
-
-    let söz = msg.content.substring(3 + 5);
-
-
-
-	
-
-
-
-   let embed = new Discord.RichEmbed()
-
-
-
-    .setColor(3447003)
+if (msg.content === prefix + 'ekip') { 
+let söz = msg.content.substring(3 + 5);
+let embed = new Discord.RichEmbed() 
+   .setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
 
 .setAuthor(msg.author.username, msg.author.avatarURL)
 
-	.setDescription(msg.author.username + "ile çay içiyorsunuz!")
+	.setDescription(msg.author.username + "," + söz + "ile çay içiyorsunuz!")
 .setImage("https://goo.gl/EHQEQw")
 
 
@@ -161,54 +145,7 @@ msg.channel.send({embed})}
 });
 
 
- client.on('message', msg => {
-
-
-
-   if (msg.content.startsWith(prefix + "konuştur")) {
-
-
-
-    if (msg.channel.type !== "dm"){
-
-	    msg.delete (msg.content == 'konuştur')
-
-
-
-    let söz = msg.content.substring(2 + 9);
-
-
-
-	
-
-
-
-   let embed = new Discord.RichEmbed()
-
-
-
-    .setColor(3447003)
-
-
-
-	.setDescription(söz)
-
-
-
-return msg.channel.send({embed})}
-
-
-
-   }
-
-
-
-
-
-
-
-});
-
+ 
 
 
 client.on('message', msg => { 
