@@ -121,14 +121,14 @@ msg.member.send({embed: embed})
 
 
 
-if (msg.content === prefix + 'ekip') { 
+if (msg.content === prefix + 'çayiç') { 
 let söz = msg.content.substring(3 + 5);
 let embed = new Discord.RichEmbed() 
    .setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
 
 .setAuthor(msg.author.username, msg.author.avatarURL)
 
-	.setDescription(msg.author.username + "," + söz + "ile çay içiyorsunuz!")
+	.setDescription("msg.author.username" + "," + söz + "ile çay içiyorsunuz!")
 .setImage("https://goo.gl/EHQEQw")
 
 
