@@ -122,8 +122,6 @@ msg.member.send({embed: embed})
 
 
 
-    if (msg.channel.type !== "dm"){
-
 	  
 
 
