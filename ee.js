@@ -118,7 +118,7 @@ msg.member.send({embed: embed})
 
 
 
-   if (msg.content.startsWith(prefix + "çayiç")) {
+   if (msg.content === prefix + "çayiç")) {
 
 
 
