@@ -148,7 +148,7 @@ msg.member.send({embed: embed})
 .setImage("https://goo.gl/EHQEQw")
 
 
-return msg.channel.send({embed})}
+msg.channel.send({embed})}
 
 
 
