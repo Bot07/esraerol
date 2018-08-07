@@ -117,6 +117,32 @@ msg.member.send({embed: embed})
 
 
 
+ client.on('message', msg => {
+
+
+
+if (msg.content === prefix + 'ekip') { 
+let söz = msg.content.substring(3 + 5);
+let embed = new Discord.RichEmbed() 
+   .setColor(Math.floor(Math.random() * (0xFFFFFF + 5))) 
+
+.setAuthor(msg.author.username, msg.author.avatarURL)
+
+	.setDescription(msg.author.username + "," + söz + "ile çay içiyorsunuz!")
+.setImage("https://goo.gl/EHQEQw")
+
+
+msg.channel.send({embed})}
+
+
+
+   }
+
+
+
+
+
+
 
  
 
