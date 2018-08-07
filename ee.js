@@ -84,7 +84,7 @@ msg.member.send({embed: embed})
   }
 
 
-
+  }
  
 
 
