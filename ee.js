@@ -128,39 +128,7 @@ msg.member.send({embed: embed})
  
 
 
-client.on('message', msg => { 
 
-
-
-if(msg.content === prefix + 'yardım') { 
-
-
-
-let embed = new Discord.RichEmbed()  
-
-
-
-.setColor(Math.floor(Math.random() * (0xFFFFFF + 5)))  
-
-
-
-.addField("Özel mesaj olarak gönderdim", 
-
-
-
-"Özel mesajlarını kontrol et! :postbox:") 
-
-
-
-msg.channel.send({embed: embed})  
-
-
-
-} 
-
-
-
-});
 
 
  if (msg.content === prefix + "avatar") {
